@@ -1,0 +1,40 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul,li,a {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+li,
+a {
+  float: left;
+  text-align: center;
+  background-color: black;
+  color: white;
+  justify-content: right;
+  text-justify: auto;
+
+  display: block;
+}
+a:hover {
+  background-color: tomato;
+  display: block;
+}
+a:visited {
+  color: rosybrown;
+}
+
+#home {
+  background-color: green;
+}
+li{border-right: 1px solid #bbb;
+  
+  display: inline;
+
+}
